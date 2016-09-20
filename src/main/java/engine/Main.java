@@ -50,10 +50,12 @@ public class Main {
 	}
 
 	private static void update() {
+
 		game.update();
 	}
 
 	private static void getInput() {
+
 		game.getInput();
 	}
 
@@ -69,7 +71,7 @@ public class Main {
 
 	private static void initDisplay() {
 		try {
-			Display.setDisplayMode(new DisplayMode(800,600));
+			Display.setDisplayMode(new DisplayMode(800, 600));
 			Display.create();
 			Keyboard.create();
 			Display.setVSyncEnabled(true);
